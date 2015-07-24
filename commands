@@ -270,6 +270,7 @@ EOF
     cat && cat<<EOF
     rethinkdb:create <app>                          Create a RethinkDB container
     rethinkdb:delete <app>                          Delete specified RethinkDB container
+    rethinkdb:bind-client-driver <app> [host port]  Bind app's RethinkDB container client driver port to host port
     rethinkdb:bind-webui <app> [host port]          Bind app's RethinkDB container WebUI to host port
     rethinkdb:bind-cluster <app> [host port]        Bind app's RethinkDB cluster port to host
     rethinkdb:unbind <app>                          Unbind app RethinkDB container host port bindings
