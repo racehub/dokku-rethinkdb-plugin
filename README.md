@@ -10,13 +10,10 @@ containers for apps.
 
 - **No dependencies** (other than a recent development version of Dokku.)
   *Wow!*
-- **Deletes cleanly with apps.** *Oh my!*
 - **Survives reboots, cleanups, and redeploys.** *Holy cow!*
 - **Can add before or after pushing an app.** *Am I dreaming?*
 - **Allows access to admin ports through binding to host interfaces.** *Is this
   real life?*
-
-![Vince McMahon reacts to dokku-rethinkdb-plugin](http://i.imgur.com/ef28TQS.gif)
 
 **dokku-rethinkdb-plugin**: The [Gary Strydom][] of Dokku datastore plugins.
 
